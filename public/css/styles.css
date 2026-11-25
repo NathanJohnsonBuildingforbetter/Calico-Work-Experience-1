@@ -811,6 +811,16 @@ img {
         .nav-links{
         display: none;
     }
+    .hero-inner {
+        flex-direction: column;
+        gap: 32px;
+    }
+    .hero-media {
+        width: 100%;
+        height: auto;
+    }
+    .playbook-grid{
+        grid-template-columns: repeat(1, 1fr);}
 }
 @media (max-width: 768px) {
   h1 {
