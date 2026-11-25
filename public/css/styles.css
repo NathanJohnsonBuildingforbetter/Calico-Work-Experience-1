@@ -217,14 +217,18 @@ img {
     padding-bottom: 4px;
     margin: 8px 0px;
     border-bottom: 2px solid transparent;
+   
 }
+.menu__links{
+  list-style-type: none;
+} 
 
 .btn__menu {
-    background-color: transparent;
+    background-color: orange;
     display: none;
     border-width: medium;
     border-style: none;
-    border-color: #fff;
+    border-color: black;
     border-image: none;
     transition: 300ms;
 }
